@@ -1,0 +1,95 @@
+/*VARIABLES*/
+
+body{
+    --sombras: 0px 1px 0px #393d3f, 1px 2px 0px #393d3f, 2px 3px 0px #393d3f,
+    3px 4px 0px #393d3f;
+    --sombras-p: 1px 1px 8px #393d3f;
+    --sombras-i: 2px 2px 2px #ddd;
+}
+
+/*FONTS*/
+@font-face {
+    font-family: "TrebuchetMS";
+    src: url(FONTS/TrebuchetMS.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "BebasNeue";
+    src: url(FONTS/BebasNeue.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "WebSymbolsRegular";
+    src: url(FONTS/websymbols-regular-webfont.eot);
+    src: url(FONTS/websymbols-regular-webfont.eot?#iefix) format('embedded-opentype'),
+         url(FONTS/websymbols-regular-webfont.woff) format('woff'),
+         url(FONTS/websymbols-regular-webfont.ttf) format('truetype'),
+         url(FONTS/websymbols-regular-webfont.svg#WebSymbolsRegular) format('svg'); 
+         
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*ESTILOS GENERALES*/
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background: rgb(238, 236, 236);
+}
+
+#articulo_h article{
+    width: 90%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    font-weight: normal !important;
+    font-family: "TrebuchetMS";
+    background: white;
+    color: black;
+    box-shadow: var(--sombras-p);
+    font-weight: normal;
+    margin-top: 40px;
+    
+}
+
+#articulo_h article h4{
+    display: block;
+    font-size: 23px;
+    margin: 3px;
+    color: #00538c;
+    text-transform: uppercase;
+
+}
+
+#articulo_h article .data{
+    float: right;
+    background-color: #393d3f;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+    margin: -10px;
+    padding: 4px;
+    font-size: 13px;
+    border-radius: 0px 0px 0px 5px;
+
+}
+
+#articulo_h article p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
